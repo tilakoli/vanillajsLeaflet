@@ -9,23 +9,25 @@
 /* 49.5 */
 /*   :    */
 .parent {
-  width: 74.25vw;
+  width: 71.25vw;
   height: 70vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: transparent;
 }
 
 .map {
   height: 100%;
   width: 100%;
-  background-color: transparent;
+  background-color: transparent !important;
+   /* box-shadow: 2px 5px 10px 1px black; */
   
 }
 
 .info{
   background-color: black;
-  width: 24.75vw;
+  width: 27.75vw;
   display: flex;
   align-items: center;
   justify-content: center;
